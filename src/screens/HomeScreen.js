@@ -14,6 +14,11 @@ const HomeScreen = ({ navigation }) => (
         style={styles.button}
         onPress={() => navigation.navigate('List')}
       />
+      <Button
+        title="Go to Image Screen DEMO"
+        style={styles.button}
+        onPress={() => navigation.navigate('Image')}
+      />
     </View>
 );
 const styles = StyleSheet.create({
