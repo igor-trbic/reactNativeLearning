@@ -19,6 +19,11 @@ const HomeScreen = ({ navigation }) => (
         style={styles.button}
         onPress={() => navigation.navigate('Image')}
       />
+      <Button
+        title="Go to Counter Screen DEMO"
+        style={styles.button}
+        onPress={() => navigation.navigate('Counter')}
+      />
     </View>
 );
 const styles = StyleSheet.create({
