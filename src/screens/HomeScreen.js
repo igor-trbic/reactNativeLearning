@@ -24,6 +24,11 @@ const HomeScreen = ({ navigation }) => (
         style={styles.button}
         onPress={() => navigation.navigate('Counter')}
       />
+      <Button
+        title="Go to Color Screen DEMO"
+        style={styles.button}
+        onPress={() => navigation.navigate('Color')}
+      />
     </View>
 );
 const styles = StyleSheet.create({
