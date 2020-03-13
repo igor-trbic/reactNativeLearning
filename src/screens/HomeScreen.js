@@ -29,6 +29,11 @@ const HomeScreen = ({ navigation }) => (
         style={styles.button}
         onPress={() => navigation.navigate('Color')}
       />
+      <Button
+        title="Go to Square Screen DEMO"
+        style={styles.button}
+        onPress={() => navigation.navigate('Square')}
+      />
     </View>
 );
 const styles = StyleSheet.create({
