@@ -18,8 +18,6 @@ const TextScreen = () => {
         } }
         textContentType = "password"
       />
-      {/* <Text>My name is {name}</Text> */}
-      { password.length < 5 ? <Text>Password must be at least 5 characters long!</Text> : null }
     </View>
   );
 };
